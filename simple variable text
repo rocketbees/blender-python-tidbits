@@ -1,0 +1,13 @@
+import bge
+
+def main():
+    cont = bge.logic.getCurrentController()
+    own = cont.owner
+    
+    numberVariable = str(own ["numberVariable"] #this is a game property variable, managed by the properties menu in the bge
+    own.text = "waahhhluigi" 
+    
+    #this is what the text that's associated (hooked up to) with this particular script will appear as
+    #(that is to say, it's not an object titled 'text', text is part of own, part of cont)
+    
+main()    
